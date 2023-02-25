@@ -19,6 +19,8 @@ main {
 h1 {
     margin: 0;
     padding: 25px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 700;
 }
 
 /* Controls and Message Styles */
@@ -29,7 +31,7 @@ h1 {
 
 .message-container {
     color: darkorange;
-    font-size: 1.5em;
+    font-size: 1.5em;font-family: 'Pacifico', cursive;
     font-weight: bold;
 }
 
@@ -37,6 +39,8 @@ button {
     font-size: 1.5em;
     margin-right: 10px;
     border-radius: 10px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 500;
 }
 
 #flip,
@@ -58,6 +62,12 @@ button {
 }
 
 /* Scoreboard Styles */
+
+h3 {
+    font-family: 'Pacifico', cursive;
+    font-weight: 600;
+}
+
 table, 
 th, 
 td {
